@@ -133,6 +133,7 @@ const Signup = () => {
       const resp = await launchCamera({
         mediaType: 'photo',
         includeBase64: false,
+        saveToPhotos: true,
       });
 
       if (resp.didCancel) {

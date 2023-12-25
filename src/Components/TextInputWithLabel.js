@@ -144,8 +144,8 @@ const TextInputWithLabel = ({
                     }}
                     onBlur={() => setIsFocused(false)}
                     secureTextEntry={hidePassword}
-                    style={{ color: colors.darkBlue, flex: 1, left: scale(10), fontSize: textScale(18), backgroundColor: textInputColor, borderBottomRightRadius: scale(8), borderTopRightRadius: 8 }}
-
+                    style={{ color: colors.darkBlue, flex: 1, left: scale(10), fontSize: textScale(18), backgroundColor: textInputColor, borderBottomRightRadius: scale(8), borderTopRightRadius: 8, }}
+                    placeholderTextColor={'grey'}
                     {...props}
                 />
                 {password && (

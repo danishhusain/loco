@@ -111,7 +111,8 @@ export default Login
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    // width:'100%',
+    backgroundColor: 'fff',
 
   },
   top: {
@@ -119,6 +120,9 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     marginBottom: -moderateScale(30),
+    // backgroundColor: 'fff',
+
+
 
 
   },
@@ -127,7 +131,10 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     height: 200,
-    width: 200
+    width: 200,
+    // backgroundColor: 'fff',
+
+
   },
   bottom: {
     flex: 1,
@@ -153,7 +160,8 @@ const styles = StyleSheet.create({
     padding: moderateScale(16),
     justifyContent: 'space-between',
     marginHorizontal: moderateScale(4),
-    marginTop: moderateScale(50)
+    marginTop: moderateScale(50),
+
   },
   title: {
     fontWeight: 'bold',
@@ -168,8 +176,10 @@ const styles = StyleSheet.create({
   },
   image: {
     flex: 1,
-    // backgroundColor: 'red',
-    width: '100%'
+    backgroundColor: 'red',
+    width: '100%',
+    backgroundColor: '#fff',
+
 
   },
   textInput: {

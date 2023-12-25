@@ -51,7 +51,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     justifyContent: 'center',
     alignItems: 'center',
-    marginHorizontal: moderateScale(16)
+    // marginHorizontal: moderateScale(16)
   },
   top: {
     flex: 1,
